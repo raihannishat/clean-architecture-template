@@ -6,6 +6,41 @@ This solution was created from the **Clean Architecture API** template.
 
 ---
 
+## Template install
+
+To install this repo as a .NET template and create new projects from it:
+
+### Install the template
+
+From the root of this repository:
+
+```bash
+dotnet new install .
+```
+
+To install from a path (e.g. after cloning):
+
+```bash
+dotnet new install D:\GitHub\clean-architecture-template
+```
+
+### Create a new project
+
+```bash
+dotnet new cleanarch-api -n YourProjectName
+cd YourProjectName
+```
+
+Then follow **Getting started** below (connection string, migrations, run).
+
+To uninstall the template later:
+
+```bash
+dotnet new uninstall D:\GitHub\clean-architecture-template
+```
+
+---
+
 ## Solution structure
 
 | Folder | Project | Description |
