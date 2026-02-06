@@ -1,0 +1,17 @@
+global using System.Reflection;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using Microsoft.EntityFrameworkCore.Storage;
+global using Microsoft.Extensions.DependencyInjection;
+global using System.Linq.Expressions;
+global using WeatherForecastApp.Application.Contracts.Repositories;
+global using WeatherForecastApp.Application.Contracts.Repositories.Base;
+global using WeatherForecastApp.Application.Contracts.Services;
+global using WeatherForecastApp.Application.Specifications.Contracts;
+global using WeatherForecastApp.Domain.Base;
+global using WeatherForecastApp.Domain.Entities;
+global using WeatherForecastApp.Infrastructure.Extensions;
+global using WeatherForecastApp.Infrastructure.Persistence;
+global using WeatherForecastApp.Infrastructure.Persistence.Configurations;
+global using WeatherForecastApp.Infrastructure.Repositories;
+global using WeatherForecastApp.Infrastructure.Repositories.Implementations;

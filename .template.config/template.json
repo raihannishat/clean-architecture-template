@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "WeatherForecastApp",
+  "classifications": [ "Web", "API", "Clean Architecture", "CQRS" ],
+  "identity": "CleanArchApi.Template",
+  "name": "Clean Architecture API",
+  "description": "Solution template with Clean Architecture: API, Application, Domain, Infrastructure, and Unit Tests. Same structure as WeatherForecastApp.",
+  "shortName": "cleanarch-api",
+  "sourceName": "WeatherForecastApp",
+  "tags": {
+    "language": "C#",
+    "type": "solution"
+  },
+  "preferNameDirectory": true
+}
